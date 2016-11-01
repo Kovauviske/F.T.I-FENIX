@@ -1,16 +1,16 @@
 waitUntil {!isServer && !isNull player && player isEqualTo player};
 if (player diarySubjectExists "controls") exitWith {};
 
-player createDiarySubject ["credits","Credits"];
+player createDiarySubject ["credits","Creditos"];
 player createDiarySubject ["changelog","Change Log"];
-player createDiarySubject ["serverrules","General Rules"];
-player createDiarySubject ["policerules","Police Procedures/Rules"];
-player createDiarySubject ["safezones","Safe Zones (No Killing)"];
-//player createDiarySubject ["civrules","Civilian Rules"];
-player createDiarySubject ["illegalitems","Illegal Activity"];
-//player createDiarySubject ["gangrules","Gang Rules"];
+player createDiarySubject ["serverrules","Regras Gerais"];
+player createDiarySubject ["policerules","Procedimentos da Policia/Regras"];
+player createDiarySubject ["safezones","Safe Zones (Nao mate)"];
+//player createDiarySubject ["civrules","Regras para Civil"];
+player createDiarySubject ["illegalitems","Atividade Ilegal"];
+//player createDiarySubject ["gangrules","Regras para Gangue"];
 //player createDiarySubject ["terrorrules","Terrorism Rules"];
-player createDiarySubject ["controls","Controls"];
+player createDiarySubject ["controls","Controles"];
 
 /*  Example
     player createDiaryRecord ["", //Container
